@@ -1,0 +1,30 @@
+.input {
+	padding: 7px 15px;
+
+	color: #000;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	background: #fff;
+	box-shadow: 0 4px 4px rgb(0 0 0 / 5%);
+
+
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.input ::placeholder {
+	color: gray;
+}
+
+
+.error {
+box-shadow: 0 4px 4px rgba(167, 6, 6, 0.50);
+}
+
+.inputWrapper {
+	position: relative;
+}
+
+
+

@@ -1,0 +1,26 @@
+.header {
+	background-color: #222;
+	padding: 20px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu {
+	display: flex;
+	gap: 20px;
+}
+
+.menuList {
+	display: flex;
+gap: 20px;
+}
+
+
+
+.btn {
+		background-color: #222;
+		color: white;
+		cursor: pointer;
+
+}

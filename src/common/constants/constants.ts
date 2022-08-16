@@ -9,6 +9,7 @@ export const WORDS_PER_PAGE_MAX = 20;
 export const WORDS_PER_PAGE_MIN = 1;
 export const GROUP_COUNT = 6;
 export const PAGE_COUNT = 30;
+export const DOTS = '...';
 
 export const LOCALSTORAGE_KEY_USER = 'user';
 export const LOCALSTORAGE_KEY_ID = 'newAccount';

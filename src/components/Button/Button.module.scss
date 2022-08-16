@@ -1,0 +1,47 @@
+.button {
+	display: inline-block;
+
+	box-sizing: border-box;
+	padding: 10px;
+
+	cursor: pointer;
+	transition: all 0.2s;
+	text-align: center;
+
+	border: none;
+	border-radius: 5px;
+
+	font-size: 14px;
+}
+
+.primary {
+	color: #fff;
+	background-color:coral;
+}
+
+.primary:hover {
+	background-color:  rgb(225, 113, 72);;
+}
+
+.ghost {
+	color: #000;
+	background: aqua;
+}
+
+.ghost:hover {
+	color: #fff;
+	background-color: rgb(76, 196, 196);
+}
+
+.secondary {
+	color: #000;
+	background: lightpink;
+}
+
+.secondary:hover {
+	color: #fff;
+	background-color:rgb(211, 99, 116);
+}
+
+
+

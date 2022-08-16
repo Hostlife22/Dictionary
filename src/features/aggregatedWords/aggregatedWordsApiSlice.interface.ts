@@ -39,7 +39,9 @@ export interface IAggregatedWordsRequest {
 export interface IPaginatedResultUpdated extends Omit<IPaginatedResult, '_id'> {
   id: string;
 }
-export interface IActivePaginatedResult extends Omit<IPaginatedResultUpdated, 'userWord'> {}
+export interface IActivePaginatedResult extends Omit<IPaginatedResultUpdated, 'userWord'> {
+  userWord?: IUserWordData;
+}
 
 export interface IAggregatedWordsResponse {
   paginatedResults: IPaginatedResultUpdated[];
